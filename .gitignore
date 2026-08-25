@@ -1,0 +1,12 @@
+# Artefacts generes par le pipeline d'analyse (reproducibles via analysis/run_all.py)
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Divers
+.DS_Store
