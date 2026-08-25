@@ -18,6 +18,7 @@ représentations graphiques interprétées et un plan d'action chiffré.
   - `forecast.py` — prévisions 12 mois (Holt-Winters / tendance / naïf, backtest), mix produit
     futur, scénarios de marge ;
   - `report.py` — génération du rapport (Markdown + HTML) et du classeur décisionnel ;
+  - `dashboard.py` — tableau de bord interactif Plotly (survol, zoom, filtres) ;
   - `run_all.py` — orchestration.
 - `output/` — livrables générés (ignorés par Git, reproductibles) :
   - `rapport_data_scootmaster.html` / `.md` — rapport complet illustré ;
