@@ -237,7 +237,8 @@ def construire(jdd) -> str:
             "</head><body><header><div class='wrap'>"
             "<h1>ScootMaster — Tableau de bord interactif</h1>"
             "<div class='sub'>Explorez les resultats : survol, zoom et filtres actifs.</div>"
-            "<nav><a href='rapport_data_scootmaster.html'>Rapport complet</a>"
+            "<nav><a href='rapport_data_scootmaster.pdf' target='_blank'>Rapport PDF</a>"
+            "<a href='rapport_data_scootmaster.html'>Rapport complet (HTML)</a>"
             "<a href='figures/'>Toutes les figures</a></nav>"
             "</div></header><div class='wrap'>" + _kpi_cards() +
             "<h2>Performance commerciale</h2>" + divs[0] + divs[1] +
