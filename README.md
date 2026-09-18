@@ -21,6 +21,7 @@ représentations graphiques interprétées et un plan d'action chiffré.
   - `dashboard.py` — tableau de bord interactif Plotly (survol, zoom, filtres) ;
   - `run_all.py` — orchestration.
 - `output/` — livrables générés (ignorés par Git, reproductibles) :
+  - `rapport_data_scootmaster.pdf` — rapport complet prêt à l'impression / diffusion ;
   - `rapport_data_scootmaster.html` / `.md` — rapport complet illustré ;
   - `figures/` — 17 graphiques ;
   - `tables/` — tableaux de synthèse ;
@@ -30,11 +31,11 @@ représentations graphiques interprétées et un plan d'action chiffré.
 ## Reproduire l'analyse
 
 ```bash
-pip install pandas numpy openpyxl matplotlib seaborn scikit-learn scipy statsmodels xlsxwriter
+pip install pandas numpy openpyxl matplotlib seaborn scikit-learn scipy statsmodels xlsxwriter plotly xhtml2pdf reportlab
 python3 -m analysis.run_all
 ```
 
-Le rapport principal s'ouvre avec `output/rapport_data_scootmaster.html`.
+Le rapport principal s'ouvre avec `output/rapport_data_scootmaster.html` ou `output/rapport_data_scootmaster.pdf`.
 
 ## Principaux constats (voir rapport pour le détail)
 
